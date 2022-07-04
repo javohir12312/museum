@@ -1,0 +1,33 @@
+*,
+*::after
+*::before{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
