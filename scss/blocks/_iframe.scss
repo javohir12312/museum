@@ -10,6 +10,11 @@
   margin-bottom: 75px;
 }
 
+.wrapper-two{
+  display: flex;
+  justify-content: space-between
+}
+
 .wrapper-iframe-title {
   @include font-style(400, 80px, 90px) ;
   margin: 0;
@@ -97,6 +102,8 @@
     width: 354px;
     height: 199px;
   }
+  
+  
 
   .iframe-three {
   display: none;
